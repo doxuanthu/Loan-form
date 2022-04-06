@@ -1,0 +1,36 @@
+div#header-two {
+    webkit-box-shadow: 0 5px 10px -4px rgb(0 0 0 / 50%);
+    box-shadow: 0 5px 10px -4px rgb(0 0 0 / 50%);
+}
+
+h1#page-title {
+    color: white;
+    font-size: 36px;
+    line-height: 81px;
+}
+
+div#main {
+    min-height: calc(100vh - 200px);
+}
+
+@media (max-width: 767px) {
+    h1#page-title {
+        font-size: 24px;
+        line-height: 63px;
+    }
+}
+
+.table-responsive>.table-bordered {
+    border: 0;
+    border: 1px solid #ddd;
+}
+
+b,
+strong {
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+.col {
+    padding: 0;
+}

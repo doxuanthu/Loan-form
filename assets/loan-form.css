@@ -1,0 +1,68 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #212529;
+}
+
+.form-title {
+    font-size: 20px;
+    margin: 36px 0 5px;
+}
+
+table thead th {
+    text-align: center;
+}
+
+select,
+input {
+    border: 1px solid #CED4DA;
+    border-radius: unset !important;
+}
+
+.form-policy p {
+    margin: 4px 0;
+}
+
+label span {
+    color: red;
+}
+
+.instalment-heading {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.instalment-option-heading {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.handle-result-btns button {
+    font-size: 24px;
+    width: 100%;
+    background: #151C55 !important;
+    color: #FFFF;
+    border-radius: unset;
+}
+
+.handle-result-btns--export {
+    margin-bottom: 36px;
+}
+
+@media screen and (max-width:557px) {
+    .form-title {
+        margin-top: 24px;
+    }
+
+    .handle-result-btns button {
+        font-size: 13px;
+    }
+
+    .instalment-heading {
+        font-size: 22px;
+    }
+
+    .instalment-option-heading {
+        font-size: 20px;
+    }
+}
